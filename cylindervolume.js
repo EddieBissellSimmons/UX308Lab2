@@ -1,7 +1,7 @@
 //This program calculates the volume of a cylinder 
 
 let height = 5;
-let radius = 1;
-let volume = Math.PI*(radius*radius)*height;
+let diameter = 1;
+let volume = Math.PI*((diameter/2)*(diameter/2))*height;
 
-console.log(`Height ${height}, Radius ${radius}, Volume ${volume}`);
+console.log(`Height ${height}, Diameter ${diameter}, Volume ${volume}`);
